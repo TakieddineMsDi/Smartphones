@@ -1,0 +1,92 @@
+#account{
+  width:10%;
+  position: fixed;
+  transition:opacity 1s;
+  border: 1px;
+  -webkit-transition:opacity 1s;
+}
+#login{
+  width:auto;
+  margin-left: -42%;
+  height: 600px;
+  position:fixed;
+  transition:opacity 1s;
+  -webkit-transition:opacity 1s;
+}
+#Content{
+  width:80%;
+  left: 10%;
+  top: 15%;
+  height: 100%;
+  margin-top:0%;
+  position: absolute;
+  transition:opacity 1s;
+  -webkit-transition:opacity 1s;
+}
+#signup{
+  width:760px;
+  height: 110%;
+  margin-left: -58%;
+  margin-top: -5%;
+  position:fixed;
+  transition:opacity 1s;
+  -webkit-transition:opacity 1s;
+}
+#triangle{
+  width:0;
+  visibility; hidden;
+  position: inherit;
+  border-top:12x solid transparent;
+  border-right:12px solid transparent;
+  border-bottom:12px solid #3399cc;
+  border-left:12px solid transparent;
+}
+#login h1{
+  background:#3399cc;
+  padding:20px 0;
+  font-size:140%;
+  font-weight:300;
+  text-align:center;
+  color:#fff;
+}
+#account h1{
+  background: #888888;
+  padding:9px 0;
+  font-size:140%;
+  font-weight:300;
+  text-align:center;
+  color:#fff;
+}
+
+form{
+  background:#f0f0f0;
+  padding:6% 4%;
+}
+
+input[type="text"],input[type="password"]{
+  width:92%;
+  background:#fff;
+  margin-bottom:4%;
+  border:1px solid #ccc;
+  padding:4%;
+  font-family:'Open Sans',sans-serif;
+  font-size:95%;
+  color:#555;
+}
+
+input[type="submit"]{
+  width:100%;
+  background:#3399cc;
+  border:0;
+  padding:4%;
+  font-family:'Open Sans',sans-serif;
+  font-size:100%;
+  color:#fff;
+  cursor:pointer;
+  transition:background .3s;
+  -webkit-transition:background .3s;
+}
+
+input[type="submit"]:hover{
+  background:#2288bb;
+}
